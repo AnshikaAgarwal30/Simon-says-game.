@@ -1,0 +1,14 @@
+.red {
+    color:red;
+}
+.blue {
+    color: blue;
+}
+.box{
+    background-color: hotpink;
+    border: 2px solid black;
+}
+.btnStyle{
+    background-color:blue;
+    color:white;
+}

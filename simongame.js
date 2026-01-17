@@ -8,14 +8,21 @@ let level = 0;
 
 let h2 = document.querySelector("h2");
 
-document.addEventListener("keypress", function(){
-    if(started == false){
-        console.log("game is started");
-        started = true;
+function startGame(){
+    if(started==false){   //starting me jb value false h game start kra and value updated to true
+console.log("game has started");
+started=true; //now game has started
 
-        levelUp();
-    }
-});
+levelUp();
+}
+
+}
+//for keyboard
+document.addEventListener("keypress", startGame);
+
+//for touch screen
+document.addEventListener("touchstart", startGame);
+
 
 function gameFlash(btn) {
  btn.classList.add("flash");
