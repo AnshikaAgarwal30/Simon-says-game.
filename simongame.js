@@ -9,7 +9,7 @@ let level = 0;
 let h2 = document.querySelector("h2");
 
 function startGame(){
-    if(started==false){   //starting me jb value false h game start kra and value updated to true
+    if(started==false){   
 console.log("game has started");
 started=true; //now game has started
 
